@@ -1,0 +1,108 @@
+div > #bgheader {
+  height: 300px;
+  padding-bottom: 200px;
+}
+
+#bgheader {
+    background: rgb(14,21,58);
+    background: -moz-linear-gradient(45deg, rgba(14,21,58,1) 0%, rgba(115,107,147,1) 48%, rgba(243,201,215,1) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(14,21,58,1)), color-stop(48%,rgba(115,107,147,1)), color-stop(100%,rgba(243,201,215,1)));
+    background: -webkit-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e153a', endColorstr='#f3c9d7',GradientType=1 );
+}
+
+.parallax {
+    /* The image used */
+
+    background: rgb(14,21,58);
+    background: -moz-linear-gradient(45deg, rgba(14,21,58,1) 0%, rgba(115,107,147,1) 48%, rgba(243,201,215,1) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(14,21,58,1)), color-stop(48%,rgba(115,107,147,1)), color-stop(100%,rgba(243,201,215,1)));
+    background: -webkit-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    background: linear-gradient(45deg, rgba(14,21,58,1) 0%,rgba(115,107,147,1) 48%,rgba(243,201,215,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e153a', endColorstr='#f3c9d7',GradientType=1 );
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formsiswa{
+  position: relative;
+  top: 40px;
+}
+
+.siswalogin{
+  margin-top: 100px;
+}
+
+
+/* Style iklan ane */
+
+.iklanane{
+  position: relative;
+  top: 20px;
+  background: rgb(238, 238, 238);
+  min-width: 100px;
+  height: 600px;
+}
+
+
+.footku{
+  background-color: rgb(244, 244, 244);
+  height: auto;
+  padding: 100px;
+  position: relative;
+  top: 50px;
+}
+
+body{
+  background-color: #fbfbfb;
+}
+
+    #navmenuku{
+      width: auto;
+      background-color: #F5F5F5;
+    }
+
+    .hatiku{
+      font-weight: bold;
+      transition:all 0.3s ease;
+    }
+    .hatiku:hover{
+      color: red;
+      -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+       transform: scale(1.3);
+    }
+
+    .ngobrol{
+      font-weight: bold;
+      transition:all 0.3s ease;
+    }
+
+    .ngobrol:hover{
+      -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+       transform: scale(1.3);
+       color: rgb(0, 148, 255);
+    }
+
+    #manage_reply_enquiry { display: none; }
+    ad_navicon_toggle{
+    display: none;
+    }
+
+    /* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+    @media screen and (max-width: 800px) {
+    .ad_navtext_toggle {display: none;}
+    .ad_navicon_toggle {display: block;}
+
+    }
